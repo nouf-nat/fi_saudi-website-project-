@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<!-- Start of HTML document and setting the language to English -->
+<html lang="en">
+<head>
+    <!-- Meta information and linking CSS -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landmarks | Fi Saudi</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Hero section styling */
+         .hero {
+            background: url('FI3.jpeg') center/cover no-repeat;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        /* Styling for the hero section title */
+.hero h1 {
+    font-size: 2.5rem;
+    margin: 0 0 10px;
+}
+
+        /* Styling for the hero section paragraph */
+.hero p {
+    font-size: 1.2rem;
+}
+
+        /* General styling for the landmarks section */
+.landmarks {
+    padding: 40px 20px;
+}
+
+        /* Styling for each region's header */
+.region {
+    margin-bottom: 40px;
+}
+
+.region h2 {
+    color: #004b28;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+/* Styling for the overview section */
+.overview {
+    padding: 40px 20px;
+    background-color: #f0f8f5;
+    text-align: center;
+}
+
+        /* Styling for the overview section header */
+.overview h2 {
+    color: #004b28;
+    margin-bottom: 30px;
+    font-size: 2rem;
+}
+
+        /* Layout for the overview cards */
+.overview-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+        /* Styling for individual cards in the overview section */
+.card {
+    flex: 1 1 calc(33.333% - 20px);
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    text-align: center;
+}
+
+        /* Styling for images inside the cards */
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+        /* Styling for the card titles */
+.card h3 {
+    color: #004b28;
+    margin: 15px 0 10px;
+}
+
+        /* Styling for the card descriptions */
+.card p {
+    color: #555;
+    padding: 0 15px 15px;
+}
+
+/* Styling for individual landmarks */
+.landmark {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+
+        /* Styling for landmark images */
+.landmark img {
+    flex: 1 1 250px;
+    max-width: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+        /* Styling for landmark descriptions */
+.landmark p {
+    flex: 2;
+    color: #555;
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+        /* Styling for landmark links */
+.landmark a {
+    font-weight: bold;
+    color: #004b28;
+}
+
+        /* Hover effect for landmark links */
+.landmark a:hover {
+    color: #76c7a6;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <!-- Navigation bar with site links -->
+        <nav>
+           <ul>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="tourism.html">Tourism</a></li>
+                <li><a href="landmarks.html">Landmarks</a></li>
+                <li><a href="accommodations.html">Accommodations</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.php">Contact</a></li>
+                <li><a href="registration.php">Registration</a></li>
+                <li><a href="login.php">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+     <section class="hero">
+        <!-- Hero section with title and description -->
+        <h1>Explore the Landmarks of Saudi Arabia</h1>
+        <p>Discover the cultural, historical, and natural treasures across the Kingdom.</p>
+    </section>
+    <main>
+        <!-- Overview section with key regions and landmarks -->
+        <section class="overview">
+            <h2>Key Regions and Their Iconic Landmarks</h2>
+            <div class="overview-cards">
+                <!-- Card for Riyadh -->
+                <div class="card">
+                    <img src="L1.jpg" alt="Riyadh">
+                    <h3>Riyadh</h3>
+                    <p>Home to the iconic Masmak Fortress and the stunning Edge of the World.</p>
+                </div>
+                <!-- Card for Jeddah -->
+                <div class="card">
+                    <img src="L2.jpg" alt="Jeddah">
+                    <h3>Jeddah</h3>
+                    <p>Known for its vibrant Corniche and historic Al-Balad district.</p>
+                </div>
+                <!-- Card for Al-Ula -->
+                <div class="card">
+                    <img src="L3.jpg" alt="Al-Ula">
+                    <h3>Al-Ula</h3>
+                    <p>Famous for its ancient rock formations and Madain Saleh heritage site.</p>
+                </div>
+                <!-- Card for Makkah -->
+                <div class="card">
+                    <img src="L4.jpg" alt="Makkah">
+                    <h3>Makkah</h3>
+                    <p>Visit the Kaaba, the holiest site in Islam, and experience a spiritual journey.</p>
+                </div>
+                <!-- Card for Madinah -->
+                <div class="card">
+                    <img src="L5.jpeg" alt="Madinah">
+                    <h3>Madinah</h3>
+                    <p>Explore the Prophet's Mosque, a sanctuary for millions of pilgrims worldwide.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Detailed landmarks section -->
+        <section class="landmarks">
+            <!-- Landmarks in Riyadh -->
+            <div class="region">
+                <h2>Riyadh</h2>
+                <!-- Masmak Fortress landmark -->
+                <div class="landmark">
+                    <img src="LL1.jpg" alt="Masmak Fortress">
+                    <p>Masmak Fortress is a symbol of Saudi Arabia's unification and rich history. <a href="https://www.visitsaudi.com/en/riyadh/attractions/al-masmak-palace-in-riyadh" target="_blank">Learn more</a></p>
+                </div>
+                <!-- Edge of the World landmark -->
+                <div class="landmark">
+                    <img src="LL2.webp" alt="Edge of the World">
+                    <p>Edge of the World offers stunning panoramic views of Saudi Arabia's vast desert. <a href="https://www.visitsaudi.com/en/riyadh/attractions/edge-of-the-world" target="_blank">Learn more</a></p>
+                </div>
+            </div>
+            <!-- Landmarks in Jeddah -->
+            <div class="region">
+                <h2>Jeddah</h2>
+                <!-- Al-Balad landmark -->
+                <div class="landmark">
+                    <img src="LL3.webp" alt="Al-Balad">
+                    <p>Al-Balad is Jeddah's historic district, showcasing traditional architecture. <a href="https://www.visitalbalad.com/ar" target="_blank">Learn more</a></p>
+                </div>
+                <!-- King Fahad Fountain landmark -->
+                <div class="landmark">
+                    <img src="LL4.avif" alt="King Fahad Fountain">
+                    <p>The world's tallest fountain, a landmark on Jeddah's coastline. <a href="https://www.visitsaudi.com/en/jeddah/attractions/visit-king-fahd-s-fountain" target="_blank">Learn more</a></p>
+                </div>
+            </div>
+            <!-- Landmarks in Al-Ula -->
+            <div class="region">
+                <h2>Al-Ula</h2>
+                <!-- Madain Saleh landmark -->
+                <div class="landmark">
+                    <img src="LL5.jpg" alt="Madain Saleh">
+                    <p>Madain Saleh is a UNESCO World Heritage site featuring Nabatean tombs. <a href="https://www.saudiarabiatourismguide.com/madain-saleh/" target="_blank">Learn more</a></p>
+                </div>
+                <!-- Hegra landmark -->
+                <div class="landmark">
+                    <img src="LL6.webp" alt="Hegra">
+                    <p>Hegra is an archaeological gem with intricate carvings and ancient history. <a href="https://www.experiencealula.com/en/places-to-go/hegra?utm_source=google&utm_medium=search&utm_campaign=cn~alulanewalwayson_ch~search_mk~sa_&utm_term=ag~alulanewalwayson_mk~sa_lg~en_&utm_content=brandvariation_hegra&gad_source=1&gclid=EAIaIQobChMI8MaO8p6TigMV7KloCR3oYz3SEAAYASAAEgIXJfD_BwE" target="_blank">Learn more</a></p>
+                </div>
+            </div>
+            <!-- Landmarks in Makkah and Madinah -->
+            <div class="region">
+                <h2>Makkah and Madinah</h2>
+                <!-- Kaaba landmark -->
+                <div class="landmark">
+                    <img src="LL7.jpg" alt="Kaaba">
+                    <p>The Kaaba in Makkah is the holiest site in Islam, attracting millions annually. <a href="https://www.britannica.com/topic/Kaaba-shrine-Mecca-Saudi-Arabia" target="_blank">Learn more</a></p>
+                </div>
+                <!-- Prophet's Mosque landmark -->
+                <div class="landmark">
+                    <img src="LL8.webp" alt="Prophet's Mosque">
+                    <p>The Prophet's Mosque in Madinah is a spiritual hub for Muslims worldwide. <a href="https://madainproject.com/masjid_al_nabawi" target="_blank">Learn more</a></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer section with copyright -->
+    <footer>
+        <p>Fi Saudi &copy; 2024. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

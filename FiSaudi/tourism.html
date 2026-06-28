@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Types of Tourism | Fi Saudi</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+       
+        main {
+            padding: 40px;
+            max-width:  1700px;
+            margin: auto;
+            background: white;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        main h1 {
+            text-align: center;
+            color: #004b28;
+            margin-bottom: 20px;
+            font-size: 2.5em;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        .section h2 {
+            color: #004b28;
+            margin-bottom: 15px;
+            font-size: 1.8em;
+            
+            display: inline-block;
+        }
+
+        .section p {
+            margin-bottom: 15px;
+            line-height: 1.8;
+            font-size: 1.1em;
+        }
+
+        .tourism-types {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .tourism-type {
+            background: #f9f9f9;
+            border: 2px solid #004b28;
+            border-radius: 8px;
+            padding: 20px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .tourism-type:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .tourism-type h3 {
+            color: #004b28;
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+
+        .tourism-type p {
+            line-height: 1.6;
+            font-size: 1em;
+            color: #555;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 30px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        table th, table td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+
+        table th {
+            background-color: #004b28;
+            color: white;
+        }
+
+        table tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        .tourism-type img {
+            max-width: 600px;
+            max-height: 600px;
+            border-radius: 8px;
+            margin-bottom: 10px;
+}
+
+        
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="tourism.html">Tourism</a></li>
+                <li><a href="landmarks.html">Landmarks</a></li>
+                <li><a href="accommodations.html">Accommodations</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.php">Contact</a></li>
+                <li><a href="registration.php">Registration</a></li>
+                <li><a href="login.php">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+    <h1>Types of Tourism in Saudi Arabia</h1>
+
+    <div class="section">
+        <h2>Categories of Tourism</h2>
+        <div class="tourism-types">
+            <div class="tourism-type" style="border-color: #76c7a6;">
+                <h3>Cultural Tourism</h3>
+                <img src="FII1.webp" alt="Cultural Tourism" style="width: 100%; border-radius: 8px; margin-bottom: 10px;">
+                <p>Explore historic sites like Diriyah, vibrant traditional markets, and cultural festivals such as Janadriyah. Learn about Saudi Arabia's rich history and heritage.</p>
+            </div>
+            <div class="tourism-type" style="border-color: #ff7f50;">
+                <h3>Adventure Tourism</h3>
+                <img src="FII2.jpg" alt="Adventure Tourism" style="width: 100%; border-radius: 8px; margin-bottom: 10px;">
+                <p>Engage in thrilling activities such as desert safaris in the Empty Quarter, hiking at the Edge of the World, and diving in the Red Sea.</p>
+            </div>
+            <div class="tourism-type" style="border-color: #4682b4;">
+                <h3>Religious Tourism</h3>
+                <img src="FII3.webp" alt="Religious Tourism" style="width: 100%; border-radius: 8px; margin-bottom: 10px;">
+                <p>Visit the holy cities of Makkah and Madinah for spiritual pilgrimages. Experience the serene and sacred environment of these historic locations.</p>
+            </div>
+            <div class="tourism-type" style="border-color: #32cd32;">
+                <h3>Eco-Tourism</h3>
+                <img src="FII4.jpg" alt="Eco-Tourism" style="width: 100%; border-radius: 8px; margin-bottom: 10px;">
+                <p>Discover natural reserves like the Farasan Islands and Asir National Park. Enjoy the Kingdom's unique biodiversity and scenic landscapes.</p>
+            </div>
+            <div class="tourism-type" style="border-color: #daa520;">
+                <h3>Luxury Tourism</h3>
+                <img src="FII5.jpg" alt="Luxury Tourism" style="width: 100%; border-radius: 8px; margin-bottom: 10px;">
+                <p>Indulge in world-class accommodations, fine dining, and luxurious experiences at premium resorts in Al-Ula and Riyadh.</p>
+            </div>
+        </div>
+    </div>
+
+
+        <div class="section">
+            <h2>Key Attractions by Tourism Type</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tourism Type</th>
+                        <th>Key Attractions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Cultural Tourism</td>
+                        <td>Historic Diriyah, traditional markets, Janadriyah Festival, Al-Balad in Jeddah</td>
+                    </tr>
+                    <tr>
+                        <td>Adventure Tourism</td>
+                        <td>Empty Quarter Desert, Edge of the World, Red Sea diving, Rock climbing in AlUla</td>
+                    </tr>
+                    <tr>
+                        <td>Religious Tourism</td>
+                        <td>Masjid al-Haram, Masjid an-Nabawi, Quba Mosque, Uhud Mountain</td>
+                    </tr>
+                    <tr>
+                        <td>Eco-Tourism</td>
+                        <td>Farasan Islands, Asir National Park, Al Ahsa Oasis, Edge of the World hiking trails</td>
+                    </tr>
+                    <tr>
+                        <td>Luxury Tourism</td>
+                        <td>Ritz-Carlton Riyadh, Al-Ula luxury resorts, King Abdullah Economic City, The Red Sea Project</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </main>
+    <footer>
+        <p>Fi Saudi &copy; 2024. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

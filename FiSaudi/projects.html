@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metadata and internal CSS for the Projects page -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Fi Saudi</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Styles for the overview section */
+        .overview {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        /* Styles for the grid layout of project cards */
+        .overview-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 40px;
+        }
+        /* Styling individual project cards */
+        .card {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+            text-align: center;
+        }
+        /* Hover effect for the cards */
+        .card:hover {
+            transform: scale(1.05);
+        }
+        /* Image styles for the cards */
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        /* Heading styles for the cards */
+        .card h3 {
+            color: #004b28;
+            margin: 15px 0;
+        }
+        /* Paragraph styles for the cards */
+        .card p {
+            color: #555;
+            padding: 0 15px 15px;
+        }
+        /* Button/link styles in the cards */
+        .card a {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 8px 12px;
+            background-color: #004b28;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+        /* Hover effect for the card links */
+        .card a:hover {
+            background-color: #76c7a6;
+            color: #004b28;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header navigation bar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="tourism.html">Tourism</a></li>
+                <li><a href="landmarks.html">Landmarks</a></li>
+                <li><a href="accommodations.html">Accommodations</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.php">Contact</a></li>
+                <li><a href="registration.php">Registration</a></li>
+                <li><a href="login.php">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Main content -->
+    <main>
+        <!-- Overview section with a title and description -->
+        <section class="overview">
+            <h1>Tourism Projects and Initiatives</h1>
+            <p>Discover Saudi Arabia’s groundbreaking tourism projects that are shaping the future of the Kingdom’s tourism industry.</p>
+        </section>
+        <!-- Grid layout for tourism project cards -->
+        <section class="overview-cards">
+            <!-- Individual project card for NEOM -->
+            <div class="card">
+                <img src="P1.webp" alt="NEOM">
+                <h3>NEOM</h3>
+                <p>A futuristic city being built in the northwestern region of Saudi Arabia.</p>
+                <a href="https://www.neom.com/" target="_blank">Learn More</a>
+            </div>
+            <!-- Individual project card for Red Sea Project -->
+            <div class="card">
+                <img src="P2.jpg" alt="Red Sea Project">
+                <h3>Red Sea Project</h3>
+                <p>An ambitious initiative to develop luxury tourism on the Red Sea coast.</p>
+                <a href="https://www.redseaglobal.com/" target="_blank">Learn More</a>
+            </div>
+            <!-- Individual project card for Qiddiya -->
+            <div class="card">
+                <img src="P3.png" alt="Qiddiya">
+                <h3>Qiddiya</h3>
+                <p>A mega entertainment project located near Riyadh, focusing on culture, sports, and recreation.</p>
+                <a href="https://www.vision2030.gov.sa/en/explore/projects/qiddya" target="_blank">Learn More</a>
+            </div>
+            <!-- Individual project card for Amaala -->
+            <div class="card">
+                <img src="P4.jpg" alt="Amaala">
+                <h3>Amaala</h3>
+                <p>An ultra-luxury wellness and cultural destination along the Red Sea.</p>
+                <a href="https://www.amaala.com/" target="_blank">Learn More</a>
+            </div>
+            <!-- Individual project card for Diriyah Gate -->
+            <div class="card">
+                <img src="P5.jpg" alt="Diriyah Gate">
+                <h3>Diriyah Gate</h3>
+                <p>A cultural and historical destination showcasing the Kingdom’s heritage.</p>
+                <a href="https://www.diriyah.sa/" target="_blank">Learn More</a>
+            </div>
+            <!-- Individual project card for AlUla -->
+            <div class="card">
+                <img src="P6.jpg" alt="AlUla">
+                <h3>AlUla</h3>
+                <p>Home to Saudi Arabia's first UNESCO World Heritage Site, offering breathtaking history and landscapes.</p>
+                <a href="https://www.experiencealula.com/" target="_blank">Learn More</a>
+            </div>
+            <!-- Individual project card for Jeddah Central -->
+            <div class="card">
+                <img src="P7.jpg" alt="Jeddah Central">
+                <h3>Jeddah Central</h3>
+                <p>An urban regeneration project transforming Jeddah’s waterfront into a vibrant tourism hub.</p>
+                <a href="https://www.jeddahcentral.com/" target="_blank">Learn More</a>
+            </div>
+            <!-- Individual project card for King Salman Park -->
+            <div class="card">
+                <img src="P8.jpg" alt="King Salman Park">
+                <h3>King Salman Park</h3>
+                <p>The world’s largest urban park in Riyadh, offering green spaces, culture, and recreation.</p>
+                <a href="https://kingsalmanpark.sa/en" target="_blank">Learn More</a>
+            </div>
+            <!-- Individual project card for Soudah Development -->
+            <div class="card">
+                <img src="P9.avif" alt="Soudah Development">
+                <h3>Soudah Development</h3>
+                <p>A mountain resort project focusing on adventure and eco-tourism in the Asir region.</p>
+                <a href="https://soudah.sa/en?gad_source=1&gclid=EAIaIQobChMI09GXvbCTigMVOEdBAh3RSQ4kEAAYASAAEgIEifD_BwE" target="_blank">Learn More</a>
+            </div>
+            <!-- Individual project card for Saudi Vision 2030 -->
+            <div class="card">
+                <img src="P10.jpg" alt="Saudi Vision 2030">
+                <h3>Vision 2030 Tourism Initiatives</h3>
+                <p>A comprehensive strategy to diversify the economy and make Saudi Arabia a global tourism destination.</p>
+                <a href="https://www.vision2030.gov.sa/" target="_blank">Visit Vision 2030</a>
+            </div>
+        </section>
+    </main>
+    <!-- Footer section -->
+    <footer>
+        <p>Fi Saudi &copy; 2024. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

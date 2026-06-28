@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Head section for metadata, title, Bootstrap, and custom CSS -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | Fi Saudi</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Styling for hero section, team members, and general layout */
+        .hero {
+            background: url('FI3.jpeg') center/cover no-repeat;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+        .hero h1 {
+            font-size: 3rem;
+        }
+        .section-title {
+            text-align: center;
+            margin-bottom: 40px;
+            color: #004b28;
+            font-weight: bold;
+        }
+        .team-member img {
+            border-radius: 50%;
+            max-width: 100px;
+        }
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .team-grid, .mv-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .mv-item {
+            max-width: 300px;
+            padding: 20px;
+            border: 1px solid #eaeaea;
+            border-radius: 10px;
+            text-align: center;
+            background-color: #004b28;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <!-- Navigation menu with links to website pages -->
+        <nav>
+            <ul>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="tourism.html">Tourism</a></li>
+                <li><a href="landmarks.html">Landmarks</a></li>
+                <li><a href="accommodations.html">Accommodations</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.php">Contact</a></li>
+                <li><a href="registration.php">Registration</a></li>
+                <li><a href="login.php">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero section with a welcome message and introduction -->
+    <section class="hero">
+        <div>
+            <h1><b>Welcome to Fi Saudi</b></h1>
+            <p>Discover the wonders of Saudi Arabia with us.</p>
+        </div>
+    </section>
+
+    <main class="container my-5">
+        <!-- About Us section with a brief introduction -->
+        <section>
+            <h2 class="section-title">About Us</h2>
+            <p class="text-center">
+                Fi Saudi is your trusted guide to the beauty and culture of Saudi Arabia. Whether you're a local or a global traveler, we provide all the tools and information you need to explore the kingdom's breathtaking landscapes, ancient landmarks, and modern wonders.
+            </p>
+        </section>
+
+        <!-- Mission, Vision, and Values section -->
+        <section class="my-5">
+            <div class="mv-grid">
+                <div class="mv-item">
+                    <h4 style="color: white"><b>Our Mission</b></h4>
+                    <p style="color: white">Showcasing the beauty and culture of Saudi Arabia while promoting sustainable tourism and cultural appreciation.</p>
+                </div>
+                <div class="mv-item">
+                    <h4 style="color: white"><b>Our Vision</b></h4>
+                    <p style="color: white">To position Saudi Arabia as one of the world’s premier travel destinations.</p>
+                </div>
+                <div class="mv-item">
+                    <h4 style="color: white"><b>Our Values</b></h4>
+                    <ul>
+                        <li style="color: white">Integrity and transparency</li>
+                        <li style="color: white">Excellence in service</li>
+                        <li style="color: white">Sustainability and cultural preservation</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Our History section -->
+        <section class="my-5">
+            <h2 class="section-title">Our History</h2>
+            <p class="text-center">
+                Founded in 2020, Fi Saudi began as a passion project to uncover hidden gems in Saudi Arabia. Today, we are a leading travel resource for locals and global travelers alike.
+            </p>
+        </section>
+
+        <!-- Meet Our Team section -->
+        <section class="my-5">
+            <h2 class="section-title">Meet Our Team</h2>
+            <div class="team-grid">
+                <div class="team-member text-center">
+                    <img src="FI6.png" alt="Team Member">
+                    <h4>Alanoud AL-shammari</h4>
+                    <p>2240007921</p>
+                </div>
+                <div class="team-member text-center">
+                    <img src="FI6.png" alt="Team Member">
+                    <h4>Rawan AL-osaimi</h4>
+                    <p>2240000183</p>
+                </div>
+                <div class="team-member text-center">
+                    <img src="FI6.png" alt="Team Member">
+                    <h4>Saja Al-Hkhiwany</h4>
+                    <p>2240007656</p>
+                </div>
+                <div class="team-member text-center">
+                    <img src="FI6.png" alt="Team Member">
+                    <h4>Njood Al-hazza</h4>
+                    <p>2240000319</p>
+                </div>
+                <div class="team-member text-center">
+                    <img src="FI6.png" alt="Team Member">
+                    <h4>Nouf Abu thnin</h4>
+                    <p>2240007801</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer section -->
+    <footer>
+        <p>Fi Saudi &copy; 2024. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

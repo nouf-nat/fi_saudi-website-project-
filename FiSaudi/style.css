@@ -1,0 +1,228 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f8f9fa;
+    /* Global styles for body: font, colors, and spacing */
+}
+
+/* Header Styles */
+header {
+    width: 100%;
+    background-color: #004b28;
+    color: white;
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+    /* Styles for the header bar */
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    /* Center alignment for navigation menu */
+}
+
+header nav ul li {
+    margin: 0 15px;
+    /* Spacing between menu items */
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    /* Styling for navigation links */
+}
+
+/* Hero Section */
+.hero {
+    background: url('FI3.jpeg') no-repeat center center/cover;
+    text-align: center;
+    padding: 150px 20px;
+    color: white;
+    position: relative;
+    box-shadow: inset 0 0 0 1000px rgba(0, 75, 40, 0.6);
+    /* Hero section with background image and overlay effect */
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    margin: 0;
+    /* Large heading in hero section */
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin: 10px 0 20px;
+    /* Subheading in hero section */
+}
+
+.hero .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #76c7a6;
+    color: #004b28;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    font-weight: bold;
+    /* Button styling in hero section */
+}
+
+.hero .btn:hover {
+    background-color: #004b28;
+    color: white;
+    /* Hover effect for the hero button */
+}
+
+/* Featured Section */
+.featured {
+    background-color: #f0f8f5;
+    text-align: center;
+    padding: 50px 20px;
+    /* Section for featured content with light background */
+}
+
+.featured h2 {
+    color: #004b28;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    /* Heading for the featured section */
+}
+
+.featured-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    /* Layout for featured cards */
+}
+
+.card {
+    flex: 1 1 calc(33.333% - 20px);
+    max-width: 300px;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+    /* Styling for individual cards */
+}
+
+.card:hover {
+    transform: scale(1.05);
+    /* Hover effect for cards */
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    /* Card image styling */
+}
+
+.card h3 {
+    color: #004b28;
+    margin: 15px 0 10px;
+    /* Card title styling */
+}
+
+.card p {
+    color: #555;
+    padding: 0 15px 15px;
+    /* Card description styling */
+}
+
+/* Call-to-Action Section */
+.call-to-action {
+    background-color: #004b28;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+    /* Section for call-to-action with dark background */
+}
+
+.call-to-action h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    /* Heading for call-to-action section */
+}
+
+.call-to-action p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    /* Text styling in call-to-action section */
+}
+
+.call-to-action .btn {
+    padding: 10px 20px;
+    background-color: #76c7a6;
+    color: #004b28;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    font-weight: bold;
+    /* Button styling in call-to-action section */
+}
+
+.call-to-action .btn:hover {
+    background-color: #fff;
+    color: #004b28;
+    /* Hover effect for call-to-action button */
+}
+
+/* Forms */
+form {
+    max-width: 600px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* Styling for forms */
+}
+
+form label {
+    font-weight: bold;
+    /* Styling for form labels */
+}
+
+form input, form textarea, form button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    /* Input fields and button styling */
+}
+
+form button {
+    background-color: #004b28;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    /* Form button styling */
+}
+
+form button:hover {
+    background-color: #76c7a6;
+    /* Hover effect for form button */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #004b28;
+    color: #fff;
+    padding: 15px 0;
+    margin-top: 20px;
+    /* Footer styling */
+}
